@@ -1,0 +1,104 @@
+\documentclass{article}
+    % General document formatting
+    \usepackage[margin=0.7in]{geometry}
+    \usepackage[parfill]{parskip}
+    \usepackage[utf8]{inputenc}
+    \usepackage{multirow}
+    \usepackage{array}
+    \usepackage{longtable}
+    
+    % Related to math
+    \usepackage{amsmath,amssymb,amsfonts,amsthm}
+\title{CL205 - Operating Systems Lab \\ Outline}
+\author{Waqas Ali}
+
+\begin{document}
+\maketitle
+
+\begin{longtable}{| m{3cm} | m{14cm} |} 
+	\hline
+	\textbf{Course Code} & CL205 \\
+	\hline
+	\textbf{Course title} & Operating Systems Lab \\
+	\hline
+	\textbf{Credit hours} & 15 \\
+	\hline
+	\textbf{Prerequisites} & CS201 - Data Structures \\
+	\hline
+	\multirow{3}{7em}{\textbf{Assessments with weights}} & Assignments \& Lab tasks: 50\% \\
+	& Participation: 10\% \\
+	& Lab Exam: 40\% \\
+	\hline
+	\textbf{Goals} & The lab will introduce the basic principles of Operating Systems. It will cover the implementation of management modules present in the Operating System i.e. Process management, Memory management, File management, Disk management, I/O management. \\
+	\hline
+	\textbf{Topics covered in the lab, with number of lab sessions on each topic} & \begin{tabular}{| m{3cm} | m{10cm} |}
+						\hline
+						\textbf{Duration} & \textbf{Topics} \\
+						\hline
+						1 (3 hrs) & Installation \& Introduction to Linux \\ 
+						\hline
+						\multirow{3}{4em}{2 (3 hrs)} & Basics of Ubuntu\\
+						& - Linux File System\\
+						& - Terminal \\
+						\hline
+						3 (3hrs) & Basic Linux Commands \\
+						\hline
+						\multirow{5}{4em}{4 (3 hrs)} & - Nano Editor \\
+						& - Searching \\
+						& - File Permissions \\
+						& - File Ownership \\
+						& - GNU Compiler Collection \\
+						\hline
+						\multirow{2}{4em}{5 (3 hrs)} & Process Creation \\
+						& - The fork() system call \\
+						\hline
+						\multirow{4}{4em}{6 (3 hrs)} & Process Running states \\
+						& - The exec() system call \\
+						& Waiting States \\
+						& - The sleep() system call \\
+						\hline
+						\multirow{7}{4em}{7 (3 hrs)} & Process Termination \\
+						& - The exit() system call \\
+						& - The atexit() system call \\
+						& - The abort() system call \\
+						& Death of parent or child \\
+						& - Parent dies before child \\
+						& - Child dies before parent \\
+						\hline
+						\multirow{2}{4em}{8 (3 hrs)} & Input/Output \\
+						& - File Descriptors \\
+						\hline
+					\end{tabular}
+	\\
+	\hline
+	 & \begin{tabular}{| m{3cm} | m{10cm} |}
+		\hline
+		\multirow{7}{4em}{9 (3 hrs)} & Inter Process Communication using pipes \\
+		& - The pipe() system call \\
+		& - One way communication \\
+		& - Two way communication \\
+		& Inter Process Communication using signals \\
+		& - The kill() system call \\
+		& - Signal handling using the signal() system call \\
+		\hline
+		10 (3 hrs) & Inter Process Communication using shared memory \\
+		\hline
+		11 (3 hrs) & Inter Process Communication using message passing \\
+		\hline
+		\multirow{4}{6em}{12 (3 hrs)} & Threads \\
+		& - Creation \\
+		& - Termination \\
+		& - Data sharing between threads \\
+		\hline
+		13 (3 hrs) & Shell Scripting \\
+		\hline
+		14 (3 hrs) & Synchronization \& Deadlocks \\
+		\hline
+		15 (3 hrs) & Memory Management \\
+		\hline 
+	\end{tabular}
+	\\
+	\hline
+\end{longtable}
+
+\end{document}
